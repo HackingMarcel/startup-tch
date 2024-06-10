@@ -1,0 +1,58 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+  background: url(hyrox.webp) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+h1 {
+  font-size: 3em;
+  color:  yellow;
+}
+
+hr {
+    margin: 20px auto;
+    color:  solid yellow;
+    border: 3px solid yellow;
+    max-width: 65px;
+    opacity: 1; 
+   }
+
+  .buffer {
+    height: 20rem;
+  }
+
+/*hr {*/
+  border-color: yellow;
+  border-width: 3px;
+  max-width: 65px;
+}
+
+.btn {
+  font-weight: 700;
+  border-radius: 300px;
+  text-transform: uppercase;
+  color: solid black;
+}
+
+.btn-primary {
+  background-color: yellow;
+  border-color: black;
+  color: black;
+}
+
+.btn-primary:hover {
+  background-color: red;
+  border-color: black;
+  border-width: 4px;
+
+}
+
+.btn-xl {
+  padding: 1rem 2rem;
+}
